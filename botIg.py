@@ -1,0 +1,13 @@
+from instapy import InstaPy
+# name=os.environ.get('username')
+# passw=os.environ.get('pass')
+session=InstaPy(username="radhikaa.2103")
+session.login()
+#session.do_comment(enabled=True, percentage=100)
+#session.set_comments(['Beauty','love your content so much','Amazing post'])
+session.set_do_follow(enabled=True,percentage=30,times=1)
+session.follow_commenters(['jazzzyy.x','radhikasethh','shirleysetia','memezar'],amount=10,daysold=200,max_pic=20,sleep_delay=600,interact=False)
+#session.set_user_interact(amount=5, randomize=True, percentage=100, media='Photo')
+session.like_by_tags(['fashion','reels','music','musician','indianreels','indiansongs','memes'],amount=10)
+#session.like_by_tags(use_smart_hashtags=True,amount=20)
+session.end()
