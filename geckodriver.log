@@ -280,3 +280,118 @@ observe@resource://gre/modules/AsyncShutdown.jsm:575:16
 1634482971227	Marionette	INFO	Stopped listening on port 59663
 JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
 JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1634483107898	geckodriver	INFO	Listening on 127.0.0.1:62741
+1634483110946	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62742" "-no-remote" "-profile" "C:\\Users\\aryan\\AppData\\Local\\Temp\\rust_mozprofile5eDywc"
+1634483111270	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\aryan\\AppData\\Local\\Temp\\rust_mozprofile5eDywc\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62742/devtools/browser/69fbdd49-2082-4bce-92b5-1d1323c3d5b5
+1634483113637	Marionette	INFO	Listening on port 62747
+1634483114107	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1634483116174	Marionette	INFO	Stopped listening on port 62747
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634483141684	geckodriver	INFO	Listening on 127.0.0.1:61339
+1634483144731	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61340" "-no-remote" "-profile" "C:\\Users\\aryan\\AppData\\Local\\Temp\\rust_mozprofileqg2znz"
+1634483145030	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\aryan\\AppData\\Local\\Temp\\rust_mozprofileqg2znz\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61340/devtools/browser/3dde4530-480f-4ea6-a9a5-326b7df1006a
+1634483147206	Marionette	INFO	Listening on port 61345
+1634483147386	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientManager::Msg_ExpectFutureClientSource Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientManager::Msg_ForgetFutureClientSource Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1634483155463	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.jsm:326:29
+observe@resource://gre/modules/AsyncShutdown.jsm:575:16
+
+1634483355297	Marionette	INFO	Stopped listening on port 61345
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1634484064323	geckodriver	INFO	Listening on 127.0.0.1:64559
+1634484067345	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64560" "-no-remote" "-profile" "C:\\Users\\aryan\\AppData\\Local\\Temp\\rust_mozprofilesD3J3W"
+1634484067673	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\aryan\\AppData\\Local\\Temp\\rust_mozprofilesD3J3W\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64560/devtools/browser/69e06888-cdc0-46c5-96cb-3b2b3205af69
+1634484070002	Marionette	INFO	Listening on port 64565
+1634484070019	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientManager::Msg_ExpectFutureClientSource Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientManager::Msg_ForgetFutureClientSource Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1634484075654	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://www.instagram.com/, line 53: TypeError: window.__bufferedErrors is undefined
+JavaScript error: https://www.instagram.com/, line 53: TypeError: window.__bufferedErrors is undefined
+JavaScript error: https://www.instagram.com/, line 53: TypeError: window.__bufferedErrors is undefined
+JavaScript error: https://www.instagram.com/, line 53: TypeError: window.__bufferedErrors is undefined
+1634484240245	Marionette	INFO	Stopped listening on port 64565
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.jsm:326:29
+
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634494089209	geckodriver	INFO	Listening on 127.0.0.1:64811
+1634494092270	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64812" "-no-remote" "-profile" "C:\\Users\\aryan\\AppData\\Local\\Temp\\rust_mozprofileKSgaOM"
+1634494092599	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\aryan\\AppData\\Local\\Temp\\rust_mozprofileKSgaOM\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64812/devtools/browser/39763b5c-9f04-4db9-a7b0-6e985c56bb76
+1634494094583	Marionette	INFO	Listening on port 52245
+1634494094914	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientManager::Msg_ExpectFutureClientSource Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientManager::Msg_ForgetFutureClientSource Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1634494100008	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.jsm:326:29
+observe@resource://gre/modules/AsyncShutdown.jsm:575:16
+
+1634494201537	Marionette	INFO	Stopped listening on port 52245
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634587825100	geckodriver	INFO	Listening on 127.0.0.1:58398
+1634587828169	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "58399" "-no-remote" "-profile" "C:\\Users\\aryan\\AppData\\Local\\Temp\\rust_mozprofileG9gtbS"
+*** You are running in headless mode.
+1634587828761	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\aryan\\AppData\\Local\\Temp\\rust_mozprofileG9gtbS\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58399/devtools/browser/0b165878-8aae-4fd0-8907-8c9a5785f03c
+1634587830132	Marionette	INFO	Listening on port 58404
+1634587830227	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientManager::Msg_ExpectFutureClientSource Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientManager::Msg_ForgetFutureClientSource Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientManager::Msg_ExpectFutureClientSource Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientManager::Msg_ForgetFutureClientSource Processing error: message was deserialized, but the handler returned false (indicating failure)
+
